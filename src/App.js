@@ -7,7 +7,6 @@ function App() {
   return (
     <>
       <Cabecalho />
-      <h1>oi</h1>
       <Container />
     </>
   );
