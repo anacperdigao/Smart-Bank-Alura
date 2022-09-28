@@ -1,5 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 
+/*Ainda está em discussão onde é o melhor lugar de se importar essa fonte com o component style,
+mas por enquanto o melhor esta sendo na pasta public no index.html e lá importaremos como <link> */
+
+/*
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+*/
+
+
+/* ESSA PARTE DE ESTILIZAÇÃO GLOBAL EU VOU CRIAR UM ARQUIVO NOVO "GlobalStyle.js"
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
@@ -7,8 +15,14 @@
   padding: 0;
   text-decoration: none;
   color: grey;
-}
+}*/
 
+/*
+Para criar as variáveis que vou utilizar, posso criar uma pasta nova chamado UI dentro de components,
+e depois criar um arquivo variaveis.js
+*/
+
+/* Aqui eu passei com props na parte do cabecalho, prestar atençao lá
 .btn-primario {
   text-align: center;
   border-radius: 3px;
@@ -32,12 +46,9 @@
   background: white;
   color: #41d3be;
 }
+*/
 
-.titulo {
-  color: grey;
-  padding: 25px 0;
-}
-
+/* Essa parte foi para o cabecalho e virou StyledHeader
 .cabecalho {
   background-color: #41d3be;
   display: flex;
@@ -46,6 +57,7 @@
   height: 10vh;
   align-items: center;
 }
+*/
 
 .container {
   background-color: #f1f1f1;
@@ -59,10 +71,12 @@
   justify-content: space-between;
 }
 
+/*
 .imagem-logo {
   height: 50px;
   width: 50px;
 }
+*/
 
 .imagem-icone {
   height: 25px;
