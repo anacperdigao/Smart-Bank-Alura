@@ -59,6 +59,7 @@ e depois criar um arquivo variaveis.js
 }
 */
 
+/* Foi para o componente Container
 .container {
   background-color: #f1f1f1;
   min-height: 90vh;
@@ -70,6 +71,7 @@ e depois criar um arquivo variaveis.js
   flex-direction: row;
   justify-content: space-between;
 }
+*/
 
 /*
 .imagem-logo {
@@ -77,6 +79,11 @@ e depois criar um arquivo variaveis.js
   width: 50px;
 }
 */
+
+
+/* Para as imagens e icones ou outros elementos que vou reutilizar várias vezes,
+ vou criar um arquivo dentro da pasta UI chamada index.js
+.imagem-icone, .btn, .box, .saldo e .detalhe SÃO REUTILIZAVEIS ENTAO FORAM PRO INDEX DENTRO DE UI
 
 .imagem-icone {
   height: 25px;
@@ -116,6 +123,12 @@ e depois criar um arquivo variaveis.js
   color: #41d3be;
   font-size: 24px;
 }
+*/
+
+
+
+/* A RESPONSIVIDADE EU VOU APLICAR EM CADA ELEMENTO QUE EU CRIEI, NESSE CASO, .box ESTA EM INDEX DENTRO UI
+E .conteudo ESTA DENTRO DE CONTAINER
 
 @media (max-width: 800px) {
   .box {
@@ -127,3 +140,5 @@ e depois criar um arquivo variaveis.js
     flex-direction: column;
   }
 }
+
+*/
