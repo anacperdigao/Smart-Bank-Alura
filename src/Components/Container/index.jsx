@@ -4,6 +4,8 @@ import styled from 'styled-components';
 
 import Titulo from "../Titulo";
 import Conta from "../Conta";
+import Extrato from "../Extrato";
+
 import { fundoClaro } from "../UI/variaveis";
 
 //ATENÇAO!!! Notamos que estamos com duas const com o mesmo nome Container, e nesse caso vamos mudar a segunda
@@ -31,6 +33,7 @@ export default () => {
       <Titulo>Olá Fulano!</Titulo>
       <Conteudo>
         <Conta />
+        <Extrato />
       </Conteudo>
     </Container>
   );

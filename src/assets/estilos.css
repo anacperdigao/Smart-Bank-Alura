@@ -1,8 +1,7 @@
 
 /*Ainda está em discussão onde é o melhor lugar de se importar essa fonte com o component style,
-mas por enquanto o melhor esta sendo na pasta public no index.html e lá importaremos como <link> */
+mas por enquanto o melhor esta sendo na pasta public no index.html e lá importaremos como <link>
 
-/*
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 */
 
@@ -15,10 +14,10 @@ mas por enquanto o melhor esta sendo na pasta public no index.html e lá importa
   padding: 0;
   text-decoration: none;
   color: grey;
-}*/
+}
+*/
 
-/*
-Para criar as variáveis que vou utilizar, posso criar uma pasta nova chamado UI dentro de components,
+/* Para criar as variáveis que vou utilizar, posso criar uma pasta nova chamado UI dentro de components,
 e depois criar um arquivo variaveis.js
 */
 
