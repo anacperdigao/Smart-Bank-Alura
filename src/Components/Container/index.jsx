@@ -6,7 +6,6 @@ import Titulo from "../Titulo";
 import Conta from "../Conta";
 import Extrato from "../Extrato";
 
-import { fundoClaro } from "../UI/variaveis";
 
 //ATENÇAO!!! Notamos que estamos com duas const com o mesmo nome Container, e nesse caso vamos mudar a segunda
 // para uma função anônima e mudar a exportação dela também.

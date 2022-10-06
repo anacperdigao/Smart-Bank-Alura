@@ -15,7 +15,7 @@ import { Icone, Box, Botao, Detalhe, Saldo, IconeTema } from "../UI";
 // Para isso, eu nao uso styled.tagHTML, mas sim styled(componente que vou herdar).
 
 const IconeMargin = styled(Icone)`
-  marginTop: "2px"
+  margin-top: "2px";
 `
 
 const Conta = () => {

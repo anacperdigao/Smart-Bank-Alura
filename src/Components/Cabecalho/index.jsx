@@ -5,7 +5,7 @@ import { corPrimaria } from "../UI/variaveis";
 
 
 //Os botoes são muito parecidos e por isso eu vou utilizar props só no que eu quiser diferenciar
-//Eu chamei a props primary dentro da primeira tag <BtnCabecalho> na linha 43 
+//Eu chamei a props primary dentro da primeira tag <BtnCabecalho> na linha 42 
 const BtnCabecalho = styled.a`
   text-align: center;
   border-radius: 3px;
@@ -36,7 +36,6 @@ const Logo = styled.img`
 
 const Cabecalho = () => {
   return (
-    //<div className="cabecalho"> TIREI A DIV E TROQUEI PELO STYLEDHEADER
     <StyledHeader>
       <Logo src={bank_logo} alt="Logo Smart Bank" />
       <div>
@@ -44,7 +43,6 @@ const Cabecalho = () => {
         <BtnCabecalho href="https://google.com">Sair</BtnCabecalho>
       </div>
     </StyledHeader>  
-    //</div>
   );
 };
 

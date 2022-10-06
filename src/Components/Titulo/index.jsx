@@ -1,6 +1,5 @@
 //import React from "react";
 import styled from 'styled-components';
-import { textoFundoClaro } from '../UI/variaveis';
 
 
 const Titulo = styled.h1`
